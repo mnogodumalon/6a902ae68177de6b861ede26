@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "buchungsanfrage",
+      "component": "Buchungsanfrage",
+      "title": "Zimmer anfragen",
+      "endpoints": [
+        {
+          "entity": "zimmer",
+          "op": "list",
+          "fields": [
+            "zimmernummer",
+            "zimmertyp",
+            "preis_pro_nacht",
+            "max_personen"
+          ],
+          "scope_description": "Zeigt alle verfügbaren Zimmer zur Auswahl"
+        },
+        {
+          "entity": "buchungen",
+          "op": "list",
+          "fields": [
+            "anreisedatum",
+            "abreisedatum",
+            "zimmer",
+            "status"
+          ],
+          "scope_description": "Zeigt bestehende Buchungen zur Belegungsprüfung (ohne stornierte und abgelehnte)",
+          "max_records": 500
+        },
+        {
+          "entity": "buchungen",
+          "op": "create",
+          "fields": [
+            "zimmer",
+            "anreisedatum",
+            "abreisedatum",
+            "vorname",
+            "nachname",
+            "email",
+            "telefon",
+            "anzahl_personen",
+            "nachricht"
+          ],
+          "preset_fields": {
+            "status": "anfrage"
+          }
+        }
+      ]
+    }
+  ]
+}

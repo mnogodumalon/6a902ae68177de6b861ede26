@@ -31,5 +31,6 @@ export interface OccupancyRule {
 
 export const OCCUPANCY: Partial<Record<EntityKey, OccupancyRule>> = {
   // <custom:occupancy>
+  buchungen: { from: 'anreisedatum', to: 'abreisedatum', resource: 'zimmer', statusField: 'status', freeKeys: ['storniert', 'abgelehnt'] },
   // </custom:occupancy>
 };
