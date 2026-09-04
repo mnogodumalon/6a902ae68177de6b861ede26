@@ -1,0 +1,20 @@
+{
+  "ZimmerDialog.tsx": {
+    "zimmernummer": "z. B. 101",
+    "zimmertyp": "Doppelzimmer, Einzelzimmer oder Familienzimmer",
+    "preis_pro_nacht": "z. B. 89,50",
+    "max_personen": "z. B. 2"
+  },
+  "BuchungenDialog.tsx": {
+    "zimmer": "Welches Zimmer buchen?",
+    "anreisedatum": "Wann kommt der Gast an?",
+    "abreisedatum": "Wann reist der Gast ab?",
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "email": "z. B. max@example.de",
+    "telefon": "z. B. +49 123 4567890",
+    "anzahl_personen": "z. B. 2",
+    "nachricht": "Besondere Wünsche, Diäten, Fragen...",
+    "status": "z. B. Anfrage, Bestätigt"
+  }
+}

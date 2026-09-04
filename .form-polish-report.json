@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Zimmer": {
+      "placeholders_set": 4,
+      "defaults_keys": ["zimmertyp"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten für Pensionsverwaltung — Zimmernummern, Zimmertyp und Preise sind Basis-Eingaben. Keine berechenbaren Felder."
+    },
+    "Buchungen": {
+      "placeholders_set": 10,
+      "defaults_keys": ["anreisedatum", "abreisedatum", "anzahl_personen", "status"],
+      "computed_keys": ["_buchung_dauer_nächte", "_buchung_gesamtkosten"],
+      "reason": "Aufenthalts-Buchung mit Datumspaar (anreisedatum/abreisedatum) und applookup auf Zimmer-Entity mit preis_pro_nacht. Dauer-Berechnung (Tage) und Gesamtkosten (Tage × Nachtpreis) berechenbar. Virtuelle Keys für Aggregat-Anzeige im Dialog."
+    }
+  }
+}

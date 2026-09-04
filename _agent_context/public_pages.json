@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "anfrage",
+      "type": "custom",
+      "entity": "buchungen",
+      "title": "Zimmeranfrage",
+      "published": false,
+      "fields": [
+        "zimmer",
+        "anreisedatum",
+        "abreisedatum",
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "anzahl_personen",
+        "nachricht"
+      ]
+    },
+    {
+      "slug": "zimmeranfrage",
+      "type": "custom",
+      "entity": "buchungen",
+      "title": "Zimmeranfrage",
+      "published": false,
+      "fields": [
+        "zimmer",
+        "anreisedatum",
+        "abreisedatum",
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "anzahl_personen",
+        "nachricht"
+      ]
+    },
+    {
+      "slug": "zimmer-anfrage",
+      "type": "custom",
+      "entity": "buchungen",
+      "title": "Zimmeranfrage",
+      "published": false,
+      "fields": [
+        "zimmer",
+        "anreisedatum",
+        "abreisedatum",
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "anzahl_personen",
+        "nachricht"
+      ]
+    },
+    {
+      "slug": "buchungsanfrage",
+      "type": "custom",
+      "entity": "buchungen",
+      "title": "Zimmer anfragen",
+      "published": false,
+      "fields": [
+        "zimmer",
+        "anreisedatum",
+        "abreisedatum",
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "anzahl_personen",
+        "nachricht"
+      ]
+    }
+  ]
+}

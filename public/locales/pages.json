@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "en": {
+      "Abreise": "Departure",
+      "Alles erledigt": "All done",
+      "Anfragen": "Requests",
+      "Anreise": "Arrival",
+      "Aufenthalt angepasst": "Stay adjusted",
+      "Bestätigen": "Confirm",
+      "Buchung verschoben": "Booking rescheduled",
+      "Check-in durchführen": "Perform Check-in",
+      "Check-out durchführen": "Perform Check-out",
+      "Eingecheckt": "Checked In",
+      "Gast": "Guest",
+      "Gäste eingecheckt": "Guests checked in",
+      "Heute": "Today",
+      "Heute Abreise": "Departing Today",
+      "Heute Anreise": "Arriving Today",
+      "Heute keine An- oder Abreisen": "No arrivals or departures today",
+      "Jetzt bestätigen": "Confirm Now",
+      "Keine Belegung heute — ein ruhiger Tag.": "No occupancy today — a quiet day.",
+      "Keine offenen Anfragen": "No open requests",
+      "Neue Buchung": "New Booking",
+      "Offene Anfragen": "Open Requests",
+      "Zi.": "Rm.",
+      "Zimmer": "Room",
+      "Zimmer verwalten": "Manage Rooms",
+      "warten auf Bestätigung": "awaiting confirmation",
+      "wartet auf Bestätigung": "awaiting confirmation"
+    }
+  },
+  "v": 1
+}
